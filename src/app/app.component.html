@@ -19,7 +19,8 @@
 			<tbody *ngIf="!isEditItems">
 				<tr *ngFor="let field of fieldArray; let i = index">
 					<td *ngIf="field?.name">
-						{{field.name}} <i (click)="deleteFieldValue(i)" class="mdi mdi-delete mdi-18px"></i>
+						{{field.name}}
+            <i (click)="deleteFieldValue(i)" class="mdi mdi-delete mdi-18px"></i>
 					</td>
 				</tr>
 			</tbody>
