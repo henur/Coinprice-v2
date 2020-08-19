@@ -15,7 +15,7 @@ fieldArray: Array<any> = [];
   firstFieldName = 'First Item name';
   isEditItems: boolean;
 
-  addFieldValue(index) {
+  addFieldValue() {
     this.fieldArray.push(this.newAttribute);
     this.newAttribute = {};
   }
